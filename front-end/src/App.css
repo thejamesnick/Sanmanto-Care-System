@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Spaces out the title and buttons */
+  padding: 0 20px; /* Adds padding for some spacing on the sides */
+  width: 100%; /* Ensures header takes up the full width */
+  background-color: #282c34; /* Optional: Adds a background color */
+  margin-top: 10px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.title-list {
+  display: flex;
+  list-style: none; /* Removes bullet points from the list */
+  margin: 0;
+  padding: 0;
+}
+
+.title-list li {
+  margin-left: 10px; /* Adds space between the buttons */
+}
+
+.title-list button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.title-list button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
